@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<h1>Add Item</h1>
+
+
+<form action="{{ url_for('addItem') }}" method = 'post' enctype=multipart/form-data>
+  Name:<br>
+  <input type="text" name="name"><br>
+  Price:<br>
+  <input type="text" name="price"><br>
+  Small Description:<br>
+  <input type="text" name="smallDesc"><br>
+  Full Description:<br>
+  <input type="text" name="desc"><br>
+  Thumbnail:<br>
+  <input type="file" name="thumb"><br>
+  Cover:<br>
+  <input type="file" name="cover"><br>
+  <br>
+  <input type="submit" value="Create Account">
+</form>
+
+</body>
+</html>
