@@ -1,4 +1,3 @@
-libmysqlclient20==5.7.21
 libmysqlclient-dev==5.7.21
 libc-bin==2.23
 passlib==1.7.0
