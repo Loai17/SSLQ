@@ -1,3 +1,6 @@
+libmysqlclient20==5.7.21
+libmysqlclient-dev==5.7.21
+libc-bin==2.23
 passlib==1.7.0
 SQLAlchemy==1.1.5
 gunicorn==19.7.1
